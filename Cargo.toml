@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
 members = [
-    "leetcode_00001", "leetcode_00002", "leetcode_00003", "leetcode_00004", "leetcode_00005", "leetcode_00006",
+    "leetcode_00001", "leetcode_00002", "leetcode_00003", "leetcode_00004", "leetcode_00005", "leetcode_00006", "leetcode_00007", "leetcode_00008", "leetcode_00009", "leetcode_00010",
 ]
 

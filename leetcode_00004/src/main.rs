@@ -12,7 +12,7 @@ fn main() {
     io::stdin().read_line(&mut input).expect("input failed");
     let nums2 = get_vec(&input);
 
-    let ret = Solution2::find_median_sorted_arrays(nums1, nums2);
+    let ret = Solution3::find_median_sorted_arrays(nums1, nums2);
     println!("{ret}");
 }
 
@@ -140,3 +140,27 @@ impl Solution3 {
         ret
     }
 }
+
+
+
+/*
+input:
+[1,3]
+[2]
+output:
+2.0
+
+
+input:
+[1,2]
+[3,4]
+
+output:
+2.5
+
+input:
+[1,3,5,7,9]
+[2,4,6,8,10]
+output:
+5.5
+*/
