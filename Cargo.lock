@@ -41,3 +41,11 @@ version = "0.1.0"
 [[package]]
 name = "leetcode_00010"
 version = "0.1.0"
+
+[[package]]
+name = "leetcode_00011"
+version = "0.1.0"
+
+[[package]]
+name = "leetcode_00012"
+version = "0.1.0"
