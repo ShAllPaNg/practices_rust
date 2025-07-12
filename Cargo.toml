@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
 members = [
-    "leetcode_00001", "leetcode_00002", "leetcode_00003", "leetcode_00004", "leetcode_00005", "leetcode_00006", "leetcode_00007", "leetcode_00008", "leetcode_00009", "leetcode_00010", "leetcode_00011", "leetcode_00012", "leetcode_00013", "leetcode_00014", "leetcode_00015", "leetcode_00016", "leetcode_00017", "leetcode_00018", "leetcode_00019", "leetcode_00020", "leetcode_00021", "leetcode_00022", "leetcode_00023", "leetcode_00024",
+    "leetcode_00001", "leetcode_00002", "leetcode_00003", "leetcode_00004", "leetcode_00005", "leetcode_00006", "leetcode_00007", "leetcode_00008", "leetcode_00009", "leetcode_00010", "leetcode_00011", "leetcode_00012", "leetcode_00013", "leetcode_00014", "leetcode_00015", "leetcode_00016", "leetcode_00017", "leetcode_00018", "leetcode_00019", "leetcode_00020", "leetcode_00021", "leetcode_00022", "leetcode_00023", "leetcode_00024", "leetcode_00025",
 ]
 
