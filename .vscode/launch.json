@@ -1,0 +1,563 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00001'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00001",
+                    "--package=leetcode_00001"
+                ],
+                "filter": {
+                    "name": "leetcode_00001",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00001'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00001",
+                    "--package=leetcode_00001"
+                ],
+                "filter": {
+                    "name": "leetcode_00001",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00002'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00002",
+                    "--package=leetcode_00002"
+                ],
+                "filter": {
+                    "name": "leetcode_00002",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00002'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00002",
+                    "--package=leetcode_00002"
+                ],
+                "filter": {
+                    "name": "leetcode_00002",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00003'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00003",
+                    "--package=leetcode_00003"
+                ],
+                "filter": {
+                    "name": "leetcode_00003",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00003'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00003",
+                    "--package=leetcode_00003"
+                ],
+                "filter": {
+                    "name": "leetcode_00003",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00004'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00004",
+                    "--package=leetcode_00004"
+                ],
+                "filter": {
+                    "name": "leetcode_00004",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00004'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00004",
+                    "--package=leetcode_00004"
+                ],
+                "filter": {
+                    "name": "leetcode_00004",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00005'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00005",
+                    "--package=leetcode_00005"
+                ],
+                "filter": {
+                    "name": "leetcode_00005",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00005'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00005",
+                    "--package=leetcode_00005"
+                ],
+                "filter": {
+                    "name": "leetcode_00005",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00006'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00006",
+                    "--package=leetcode_00006"
+                ],
+                "filter": {
+                    "name": "leetcode_00006",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00006'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00006",
+                    "--package=leetcode_00006"
+                ],
+                "filter": {
+                    "name": "leetcode_00006",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00007'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00007",
+                    "--package=leetcode_00007"
+                ],
+                "filter": {
+                    "name": "leetcode_00007",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00007'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00007",
+                    "--package=leetcode_00007"
+                ],
+                "filter": {
+                    "name": "leetcode_00007",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00008'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00008",
+                    "--package=leetcode_00008"
+                ],
+                "filter": {
+                    "name": "leetcode_00008",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00008'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00008",
+                    "--package=leetcode_00008"
+                ],
+                "filter": {
+                    "name": "leetcode_00008",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00009'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00009",
+                    "--package=leetcode_00009"
+                ],
+                "filter": {
+                    "name": "leetcode_00009",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00009'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00009",
+                    "--package=leetcode_00009"
+                ],
+                "filter": {
+                    "name": "leetcode_00009",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00010'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00010",
+                    "--package=leetcode_00010"
+                ],
+                "filter": {
+                    "name": "leetcode_00010",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00010'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00010",
+                    "--package=leetcode_00010"
+                ],
+                "filter": {
+                    "name": "leetcode_00010",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00011'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00011",
+                    "--package=leetcode_00011"
+                ],
+                "filter": {
+                    "name": "leetcode_00011",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00011'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00011",
+                    "--package=leetcode_00011"
+                ],
+                "filter": {
+                    "name": "leetcode_00011",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00012'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00012",
+                    "--package=leetcode_00012"
+                ],
+                "filter": {
+                    "name": "leetcode_00012",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00012'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00012",
+                    "--package=leetcode_00012"
+                ],
+                "filter": {
+                    "name": "leetcode_00012",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00013'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00013",
+                    "--package=leetcode_00013"
+                ],
+                "filter": {
+                    "name": "leetcode_00013",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00013'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00013",
+                    "--package=leetcode_00013"
+                ],
+                "filter": {
+                    "name": "leetcode_00013",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00014'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00014",
+                    "--package=leetcode_00014"
+                ],
+                "filter": {
+                    "name": "leetcode_00014",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00014'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00014",
+                    "--package=leetcode_00014"
+                ],
+                "filter": {
+                    "name": "leetcode_00014",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'leetcode_00015'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=leetcode_00015",
+                    "--package=leetcode_00015"
+                ],
+                "filter": {
+                    "name": "leetcode_00015",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'leetcode_00015'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=leetcode_00015",
+                    "--package=leetcode_00015"
+                ],
+                "filter": {
+                    "name": "leetcode_00015",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
