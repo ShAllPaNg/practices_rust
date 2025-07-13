@@ -58,16 +58,16 @@ impl Solution {
             slow = slow.unwrap().next.as_ref();
             fast = fast.unwrap().next.as_ref();
         }
-        // slow.next = slow.next.next;
-        let slow = slow.unwrap().as_ref();
+        let slow = slow.unwrap();
 
         #[allow(mutable_transmutes)]
-        let slow: &mut ListNode = unsafe { std::mem::transmute(slow) };
+        let slow: &mut Box<ListNode> = unsafe { std::mem::transmute(slow) };
         slow.next = slow.next.take().unwrap().next; //or slow.next = slow.next.take()?.next; 
-        
+
         dummy.unwrap().next
     }
 }
+
 /*
 input:
 [1,2,3,4,5]
